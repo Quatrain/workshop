@@ -1,0 +1,14 @@
+{
+    "name": "quatrain/workshop",
+    "description": "A workshop to understand how to use t41",
+    "type": "project",
+    "require": {
+        "crapougnax/t41": "^1.1"
+    },
+    "license": "Apache-2.0",
+	"autoload" : {
+		"psr-4" : {
+			"Workshop\\" : "application/library/Workshop"
+		}
+	}
+}
